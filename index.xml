@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tommy Ho on Tommy Ho</title>
+    <link>/</link>
+    <description>Recent content in Tommy Ho on Tommy Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 -0700</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Design Thinking</title>
+      <link>/project/design-thinking/</link>
+      <pubDate>Tue, 10 Dec 2019 16:18:07 -0800</pubDate>
+      
+      <guid>/project/design-thinking/</guid>
+      <description>
+
+&lt;h2 id=&#34;my-role-on-the-team&#34;&gt;My role on the team&lt;/h2&gt;
+
+&lt;p&gt;In the beginning, three members of the team each represent three different backgrounds of business, user experience, and technology, and I am the technology person considering my computer science background. Originally, I supposed myself would be like stopping my teammates from overly relying on technologies and telling them what&amp;rsquo;s impossible for the technology during the discussion. In the end, it turns out that I am the one overly relying on technical solutions since we keep refining our solutions based on the user research we have been conducted.&lt;/p&gt;
+
+&lt;h2 id=&#34;design-question-and-the-process&#34;&gt;Design question and the process&lt;/h2&gt;
+
+&lt;p&gt;Our final design question in this studio is &amp;ldquo;How can we make it more efficient for people to prepare meals for a large group of people with different dietary habits before parties in the kitchen?&amp;rdquo;. We found that the majority of people surveyed admit that preparing for dinner parties is difficult: 69% of women admit to taking a day off to prepare for their dinner party; 84% have lied to their partner about how much they spend on a dinner party&lt;a href=&#34;https://technofaq.org/posts/2017/06/dinner-party-survey-infographic/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;(source)&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And we also found typical online recipes are not helpful at all: their advice is often too general and vague, not suitable for making multiple dishes simultaneously, or requiring massive efforts to study. Moreover, Half of Americans host home parties at least once a month &lt;a href=&#34;https://www.gfk.com/en-us/insights/press-release/half-of-americans-entertain-guests-in-their-homes-at-least-once-a-month/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;(source)&lt;/em&gt;&lt;/a&gt; and more than half of Americans eat gluten-free, vegetarian, vegan, or no-dairy meals. &lt;a href=&#34;https://www.pcma.org/business-events-industry-reacts-special-meal-requests-dietary-restrictions/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;(source&lt;/em&gt;)&lt;/a&gt;. It is quite clear that people who are going to host a party could use a solution that helps them better in preparing for food party and dealing with different dietary habits at one time. Our target users in this scope are people who are going to host a food party for a large group (5-20) of people and inexperienced at it.&lt;/p&gt;
+
+&lt;p&gt;We were mostly looking for articles from culinary magazines, searching for famous bloggers on organizing large parties, reading recommendations from nutritionists. However, the most difficult part for us is to have the quantity data. It&amp;rsquo;s really hard to have market share estimation and numbers of people suffering from the problem. It is clear that the problem exists but it is hard to know how big it is at the same time. If we could the secondary research again, we should make sure that not only we have easy access to the target environment for observation but also easy access to clear and comprehensive both qualitative and quantitative data. We also survey our intended topics.&lt;/p&gt;
+
+&lt;p&gt;Based on results from secondary research, and twice field studies in the public kitchen of an apartment we conducted, we came up with several design requirements from high to low priority.&lt;/p&gt;
+
+&lt;h4 id=&#34;high-priority&#34;&gt;High Priority&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should be easy and convenient to use in the kitchen. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; Although people use smartphones in the kitchen, it is currently inconvenient becauseThey have to use their hands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Technology]&lt;/strong&gt; Our solution should utilize audio interaction. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; People listen to music a lot in the kitchen, so the audio could be a convenient medium.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Technology]&lt;/strong&gt; Our solution should be able to be used on smartphones/tablets/laptops. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; According to our survey, most people still rely on smartphones/tablets/laptops to do their planning and cooking and not buy new devices.&lt;/p&gt;
+
+&lt;h4 id=&#34;medium-priority&#34;&gt;Medium Priority&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should help users accommodate different dietary restrictions.
+&lt;strong&gt;[Justification]&lt;/strong&gt; In our survey, 30% of people who don’t ask for guests’ dietary restrictions before the planning party claimed that it’s hard for them to accommodate different restrictions and this is in parallel with our assumption.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should be a better and more convenient way than existing solutions. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; People rely on smartphones mostly even though their hands are dirty.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Business]&lt;/strong&gt; The pricing of our solution should be around $20. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; More than 40% of people surveyed are willing to pay more than ​$20 for our service.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should accommodate multiple users at the same time. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; Half of our survey takers work with others when cooking for a food party, so we should let them use our product at the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should include helping our users to plan for special occasions and events. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; 60% of our survey takers claim that their top priority for planning the party is based on the occasion or reason of the party (e.g. birthday, Thanksgiving).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should reduce the effort and time it takes to prepare a meal for a large group of people. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; Effort and time spent on preparing food are prioritized by most of our survey takers.&lt;/p&gt;
+
+&lt;h4 id=&#34;low-priority&#34;&gt;Low Priority&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should accommodate different cooking tools. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; We observe different cooking tools (e.g. normal kitchen, grilling rack) used in our different times of field study.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should take into consideration the availability of ingredients. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; Availability of material is prioritized by most of our survey takers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should provide an estimation of the amount of food to be prepared. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; We noticed the left-over problem in both our observations and people complain about the cost of our research.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Business]&lt;/strong&gt; Our solution should be advertised differently from existing solutions. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; Since online tutorial/recipe is our major competitor in the market, we might try to separate ourselves from them in marketing and image branding.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[User]&lt;/strong&gt; Our solution should create a shopping list for ingredients for the entire party planning. &lt;br /&gt;
+&lt;strong&gt;[Justification]&lt;/strong&gt; In our secondary research, the cost of the party is people worrying about. Our solution should calculate accurately and output the shopping list for people to refer to.&lt;/p&gt;
+
+&lt;p&gt;We build our solution around design requirements, so we came up with four principles &lt;strong&gt;&amp;ldquo;convenience&amp;rdquo;, &amp;ldquo;voice assistant&amp;rdquo;, &amp;ldquo;multitask&amp;rdquo;, &amp;ldquo;planning&amp;rdquo;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Convenience: Easily accessed recipes, generated shopping list, instructions&lt;/li&gt;
+&lt;li&gt;Voice Assistant: Hands-free experience in the kitchen.&lt;/li&gt;
+&lt;li&gt;Multitask: Clear directions and multitask planning algorithm.&lt;/li&gt;
+&lt;li&gt;Planning: Comprehensive organizing party&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then we came up with a low-fidelity app-like prototype that has these features. &lt;a href=&#34;https://drive.google.com/file/d/15ucyQfCbAs00dV4qOEJxAbKE7wufyMHE/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Here&lt;/a&gt; is the prototype link. We use online prototyping tools Balsamiq to create the prototype.
+&lt;img src=&#34;snippet.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The things we learned from tests show are majorly discrepancy between users&amp;rsquo; understanding and ours about our prototypes. For example, users, in the beginning, did not quite understand the workflow of our prototype, and some users even questioned the design of some buttons and functions.&lt;/p&gt;
+
+&lt;h2 id=&#34;reflection-for-entire-design-thinking-journey&#34;&gt;Reflection for entire design thinking journey&lt;/h2&gt;
+
+&lt;p&gt;We use a lot of techniques during this process, for example, brainstorming, sketching, affinity diagram, etc. Personally, my favorite ones are sketching and creating personas for the design question. These techniques allow us to review our imagined solution more discretely and realistically.
+&lt;img src=&#34;storyboard.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To people with an engineering background like me, the process and techniques used in design thinking are mind-blowing. Most of the time engineers spend too much time on the solution, rather than the question itself. As a result, products without guidance like user research techniques are mostly solving problems that do not exist at all. It is a valuable experience to learn and apply such skillset to focus on the question first and thoroughly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Distributed Scheme for Accelerating Semantic Video Segmentation on An Embedded Cluster</title>
+      <link>/publication/iccd-2019/</link>
+      <pubDate>Tue, 10 Sep 2019 17:27:46 -0700</pubDate>
+      
+      <guid>/publication/iccd-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nvidia</title>
+      <link>/talk/nvidia/</link>
+      <pubDate>Sat, 05 Jan 2019 23:27:12 +0800</pubDate>
+      
+      <guid>/talk/nvidia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARGAN</title>
+      <link>/project/argan/</link>
+      <pubDate>Tue, 01 Jan 2019 16:55:09 +0800</pubDate>
+      
+      <guid>/project/argan/</guid>
+      <description>&lt;p&gt;Image-to-image translation has been a popular topic since the Deep Learning had taken over a important position in research field regarding Computer Vision. In such kind of task, the model will usually learn a mapping &lt;code&gt;G : X → Y&lt;/code&gt; such that the distribution of generated images from &lt;code&gt;G(X)&lt;/code&gt; is indistinguishable from the distribution &lt;code&gt;Y&lt;/code&gt;. What we have achieved in this project is having aids from additional image encoded with input, to assist the model find the mapping more easily to the desired output. Such thought can be written as &lt;code&gt;G : X + Z → Y&lt;/code&gt; . We successfully enrich the complexity of &lt;code&gt;X&lt;/code&gt; with the help of &lt;code&gt;Z&lt;/code&gt;, and map &lt;code&gt;G(X + Z)&lt;/code&gt; with &lt;code&gt;Y&lt;/code&gt; by this implementation. Interesting results are generated by this approach.&lt;/p&gt;
+
+&lt;p&gt;Our project is inspired by SAGOSKATT, which is a campaign held by IKEA meant to produce toys all designed by children for charity.&lt;/p&gt;
+
+&lt;p&gt;The project is also the 3rd prize winner in Final Project Competition of National Tsing Hua University The Cutting-Edge of Deep Learning (CEDL 2017), sponsored by QCT and HTC Health.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter Sarcasm Detection</title>
+      <link>/project/twitter-sarcasm-detection/</link>
+      <pubDate>Tue, 01 Jan 2019 16:54:46 +0800</pubDate>
+      
+      <guid>/project/twitter-sarcasm-detection/</guid>
+      <description>&lt;p&gt;Precise semantic presentation of a sentence and definitive information extraction are key steps in the accurate processing of sentence meaning, especially for figurative phenomena such as sarcasm, irony and metaphor. Semantic modeling faces a new challenge in social media because grammatical inaccuracy is commonplace yet many previous state-of-the-art methods exploit grammatical structure. For sarcasm detection over social media content, researchers so far have counted on Bag-of-Words, N-grams and etc. In this project, we apply a neural network semantic model for sarcasm detection on &lt;a href=&#34;arxiv.org/abs/1704.05579&#34; target=&#34;_blank&#34;&gt;Twitter sarcasm dataset&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We propose to &lt;strong&gt;combine CNN(1D) with LSTM&lt;/strong&gt; in this project. CNN(1D) extract proper local feature extraction which resembles 1-gram. After the feature extraction, LSTM can fully learn the hidden information behind the context of sequences of higher level features provided by CNN(1D). Such design is often seen in tasks requiring comprehending sequences of images or sounds, such as activity classification or sound classification. We believe that the mixture of CNNs and RNNs can work well also in semantic analysis, as the architecture utilizes both networks’ advantages.&lt;/p&gt;
+
+&lt;p&gt;In order to demonstrate the vaildility of the sarcasm detection model, we designed a GUI interface with keywords searching on Twitter. The system can download keywords-matched tweet immediately from Twitter and detect the sarcasm. The demonstration result can be found in PDF report.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Relationship Prediction via Label Clustering and Incorporation of Depth Information</title>
+      <link>/publication/pic-workshop/</link>
+      <pubDate>Mon, 31 Dec 2018 20:54:49 +0800</pubDate>
+      
+      <guid>/publication/pic-workshop/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
