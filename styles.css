@@ -1,17 +1,4 @@
 
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
 /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
@@ -140,6 +127,11 @@ video {
 .img-responsive {
   /* Extend Bootstrap declaration with centering. */
   margin: 0 auto;
+}
+
+img.company{
+  align:right;
+  margin-left: 0.75em;
 }
 
 figcaption {
