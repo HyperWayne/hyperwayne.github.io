@@ -976,6 +976,8 @@ section.home.light .social-icons li a:hover {
 }
 .portfolio-item .thumb {
   overflow: hidden;
+  width: 400px;
+  height: 200px;
 }
 .portfolio-item .details {
   color: #FFF;
