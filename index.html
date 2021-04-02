@@ -23,6 +23,7 @@
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54895501-1"></script>
+	<script src="js/customed.js"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -231,21 +232,21 @@
 			        <div class="fact-item">
 			          <span class="icon icon-cup"></span>
 			          <div class="details">
-			            <h3 class="mb-0 mt-0 number"><em class="count" id="fact-2">4296</em> </h3><script>computeCupOfCoffee(Date.parse("09/01/2014"), 2, 'fact-2')</script><p class="mb-0">Cups of coffee</p>
+			            <h3 class="mb-0 mt-0 number"><em class="count" id="fact-2"></em> </h3><script>computeCupOfCoffee(Date.parse("2014/09/01"), 1, 'fact-2')</script><p class="mb-0">Cups of coffee</p>
 			          </div>
 			        </div><div class="spacer d-md-none d-lg-none" data-height="30"></div></div><div class="col-md-3 col-sm-6">
 			        <!-- fact item -->
 			        <div class="fact-item">
 			          <span class="icon icon-people"></span>
 			          <div class="details">
-			            <h3 class="mb-0 mt-0 number"><em class="count" id="fact-3">100</em> %</h3><p class="mb-0">Teamwork player</p>
+			            <h3 class="mb-0 mt-0 number"><em class="count" id="fact-3">100</em> %</h3><p class="mb-0">Team player</p>
 			          </div>
 			        </div><div class="spacer d-md-none d-lg-none" data-height="30"></div></div><div class="col-md-3 col-sm-6">
 			        <!-- fact item -->
 			        <div class="fact-item">
 			          <span class="icon icon-badge"></span>
 			          <div class="details">
-			            <h3 class="mb-0 mt-0 number"><em class="count" id="fact-4">10</em> </h3><p class="mb-0">Projects completed</p>
+			            <h3 class="mb-0 mt-0 number"><em class="count" id="fact-4">12</em> </h3><p class="mb-0">Projects completed</p>
 			          </div>
 			        </div></div>
 			    </div>
@@ -292,7 +293,7 @@
 							    </div>
 
 						        <div class="col-md-8">
-						      	  <h3>Software Engineer Intern (Backend)</h3>
+						      	  <h3>Software Engineer Intern (Tiktok Backend)</h3>
 						      	  	<ul>
 						      	        <li>Code high-volume software or application using primarily Golang or Python</li>
 			                            <li>Partner with PMs, designers, engineers from different teams on building backend support for mobile application
@@ -322,7 +323,7 @@
 
 						        <div class="col-md-8">
 						      	  <h3>Software Engineer Intern (Computer Vision)</h3>
-			                            <p> Conducted research on <strong>person detection and person re-identification</strong> methodologies on real-time streaming and user-defined cameras network. </p>
+			                            <p> Conducted research on <strong>object detection</strong> and <strong></strong>person re-identification</strong> methodologies on real-time streaming and user-defined cameras network. </p>
 						        </div>
 
 							</div>
@@ -347,8 +348,8 @@
 						        <div class="col-md-8">
 						      	  <h3>Software Engineer (Machine Learning)</h3>
 			                        <ul>
-			                            <li>iOS app <strong>Bite! - An app for foodies</strong>, with <strong>10k+</strong> daily users.</li>
-			                            <li>iOS app <strong>CardCool</strong>, with <strong>1M+</strong> NBA players card.</li>
+			                            <li>iOS app <strong>Bite! - An app for foodies</strong>, focusing on backend API design.</li>
+			                            <li>iOS app <strong>CardCool</strong>, processing over <strong>1M+</strong> NBA players card.</li>
 			                            <li>Constructed a smart trading system which predict the NBA cards <strong>price trending</strong> and implemented backend API (recommendation).</li>
 			                        </ul>
 						        </div>
@@ -559,7 +560,7 @@
 
 			<!-- portfolio filter (desktop) -->
 			<ul class="portfolio-filter list-inline wow fadeInUp">
-				<li class="current list-inline-item" data-filter="*">Everything</li>
+				<li class="current list-inline-item" data-filter="*">All</li>
 				<li class="list-inline-item" data-filter=".apps">Projects</li>
 				<li class="list-inline-item" data-filter=".websites">Paper</li>
 			</ul>
@@ -567,7 +568,7 @@
 			<!-- portfolio filter (mobile) -->
 			<div class="pf-filter-wrapper">
 				<select class="portfolio-filter-mobile">
-					<option value="*">Everything</option>
+					<option value="*">All</option>
 					<option value=".apps">Projects</option>
 					<option value=".websites">Paper</option>
 				</select>
@@ -575,6 +576,36 @@
 			
 			<!-- portolio wrapper -->
 			<div class="row portfolio-wrapper">
+
+
+				<!-- portfolio item  -->
+				<div class="col-md-4 col-sm-6 grid-item apps design">
+					<a href="#small-dialog-cashquizz" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">App</span>
+								<h4 class="title">Incident Response System</h4>
+							</div>
+							<div class="thumb">
+								<img src="images/projects/cashquizz.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-cashquizz" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>Incident Response System</h2>
+						<img src="images/projects/cashquizz.png" alt="Title" />
+						<h3>Introduction</h3>
+						<p>Incident Response System is a web-based application on mobile devices. The system is designed for 5 types of user, citizen, 911 dispatcher, police officer, firefighters and hospital nurse. </p>
+						<p>This is a fully functional and deployed website, where the functionalities are all implemented from scratch using <b>REACT</b>, <b>Typescipt</b> and <b>MongoDB</b> </p>
+						<a href="https://sem-ir-2021.herokuapp.com/" target="_blank"><img src="images/projects/software_development.jpg" alt="Get it on Google Play"></a>
+						<h3>My missions</h3>
+						<p> I worked as a full stack development engineer in the team. My mission includes but not limit to back-end API design, writing integration tests, Database design, writing unit tests, and implementing front-end REACT component with storybook.</p>
+						<p> Besides, I have experienced with Google Map API with complicated and customized functionalities.</p>
+						<p> Last, we applied the LeSS approach (Large Scale Scrum), which helps the team reducign the integration time.</p> 	
+					</div>
+				</div>
+
 
 				<!-- portfolio item -->
 				<div class="col-md-4 col-sm-6 grid-item apps design">
@@ -617,13 +648,14 @@
 					</div>
 				</div> 
 
+
 				<!-- portfolio item 
 				<div class="col-md-4 col-sm-6 grid-item apps design">
 					<a href="#small-dialog-cashquizz" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
 								<span class="term">App</span>
-								<h4 class="title">Cashquizz</h4>
+								<h4 class="title">Emergency System Network</h4>
 							</div>
 							<div class="thumb">
 								<img src="images/projects/cashquizz.png" alt="Portfolio-title" />
@@ -632,7 +664,7 @@
 						</div>
 					</a>
 					<div id="small-dialog-cashquizz" class="white-popup zoom-anim-dialog mfp-hide">
-						<h2>Cashquizz</h2>
+						<h2>Emergency System Network</h2>
 						<img src="images/projects/cashquizz.png" alt="Title" />
 						<h3>Introduction</h3>
 						<p>Cashquizz is a trivia game app. You can play daily tournaments to earn coins, gems or real prizes. You can also challenge your friends on a specific topic. When you have enough coins, you can redeem them to earn rewards.</p>
